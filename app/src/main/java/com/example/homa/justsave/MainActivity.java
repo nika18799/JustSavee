@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, Films.class);
+                Intent intent = new Intent(MainActivity.this, WatchedOrNot.class);
                 startActivity(intent);
             }
         });

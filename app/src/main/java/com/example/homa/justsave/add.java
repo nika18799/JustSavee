@@ -34,7 +34,9 @@ public class add extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 temp = editText.getText().toString();
+                arrayAdd.add("\n");
                 arrayAdd.add(temp);
+
             }
         });
 

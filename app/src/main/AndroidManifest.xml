@@ -3,7 +3,6 @@
     package="com.example.homa.justsave">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -21,7 +20,8 @@
         </activity>
         <activity android:name=".Films" />
         <activity android:name=".add" />
-        <activity android:name=".change"></activity>
+        <activity android:name=".change" />
+        <activity android:name=".WatchedOrNot"></activity>
     </application>
 
 </manifest>
